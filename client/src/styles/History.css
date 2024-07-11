@@ -1,0 +1,60 @@
+#history-title {
+    color: whitesmoke;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+
+#history-table-container {
+    max-height: 350px;
+    overflow-y: scroll;
+    background-color: rgb(22, 28, 35);
+    border-radius: 10px 0px 0px 10px;
+}
+#history-table-container::-webkit-scrollbar {
+    width: 10px;
+}
+#history-table-container::-webkit-scrollbar-track {
+    background-color: rgb(22, 28, 35);
+    border-left: 1px solid rgb(68, 76, 86);
+}
+#history-table-container::-webkit-scrollbar-thumb {
+    background-color: rgb(68, 76, 84);
+}
+
+#history-table-container table {
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(68, 76, 86);
+}
+
+#history-table-container td {
+    color: whitesmoke;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.history-match-row span {
+    display: inline-block;
+    background-color: rgb(205, 73, 73);
+    padding: 5px 20px;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 5px;
+}
+
+.history-round-col span {
+    display: inline-block;
+    background-color: rgb(34,41,49);
+    padding: 0px 20px;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.history-img {
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 15px 0px;
+}
